@@ -1,9 +1,11 @@
-package org.ck.adventofchatgpt.year2022.day01;
+package org.ck.adventofchatgpt.year2022.day02;
 
 import org.ck.adventofchatgpt.BaseTest;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+@Disabled
 public class Part2Test extends BaseTest {
   @ParameterizedTest
   @ValueSource(strings = {"02", "02a"})
